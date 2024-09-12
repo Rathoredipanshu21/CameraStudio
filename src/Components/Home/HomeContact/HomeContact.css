@@ -1,0 +1,48 @@
+.home-contact {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    justify-content: space-between; /* Space between items */
+    margin: 0px auto; /* Adjust margin as needed */
+    padding: 20px; /* Add padding */
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    gap: 10px; /* Adjust spacing between items */
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    width: 20px; /* Adjust icon size */
+    height: 20px; /* Adjust icon size */
+  }
+  
+  .text {
+    font-size: 14px; /* Reduce font size */
+  }
+  
+  .map-container {
+    width: 60%; /* Adjust map container width */
+    height: 450px; /* Adjust map height */
+    margin-left: 40px; /* Adjust margin between contact info and map */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .home-contact {
+      flex-direction: column; /* Change to column layout on smaller screens */
+      align-items: center; /* Center align on smaller screens */
+    }
+  
+    .map-container {
+      width: 100%; /* Full width on smaller screens */
+      margin-left: 0; /* No margin on smaller screens */
+      margin-top: 20px; /* Add margin on top */
+    }
+  }
+  

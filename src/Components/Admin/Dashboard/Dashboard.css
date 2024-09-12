@@ -1,0 +1,152 @@
+.dashboard {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  padding: 20px;
+  background-color: #426563;
+  color: #fff;
+  position: fixed;
+  height: 100vh;
+}
+
+.sidebar-header {
+  margin-bottom: 50px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 20px 0;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+}
+
+.sidebar ul li:hover {
+  text-decoration: underline;
+}
+
+.Dashboard-icons {
+  width: calc(100% - 200px);
+  margin-top: 0px;
+  height: 53px;
+  margin-left: 200px;
+  position: fixed;
+  background-color: #426563;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.iconss {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.search {
+  display: flex;
+  margin: 10px;
+}
+
+.other-three {
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+}
+
+.dashboard-content {
+  margin-left: 200px;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.dashboard-overview {
+  text-align: center;
+  padding-left: 60px;
+}
+
+.dashboard-header {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.nav-item2 {
+  gap: 30px;
+  display: flex;
+  justify-content: flex-end;
+  width: 300px;
+}
+
+.nav-item2 input {
+  width: 100px;
+}
+
+.dashboard-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.dashboard-box {
+  width: 23%; /* Adjust width to fit four boxes in a row with space between */
+  height: 150px; /* Set a consistent height */
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 10px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.dashboard-box i {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.dashboard-box.blue {
+  background-color: #007bff;
+}
+
+.dashboard-box.orange {
+  background-color: #fd7e14;
+}
+
+.dashboard-box.green {
+  background-color: #28a745;
+}
+
+.dashboard-box.red {
+  background-color: #dc3545;
+}
+
+.dashboard-graph {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.graph-placeholder {
+  height: 300px; /* Adjust height as needed */
+  background-color: #e9ecef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}

@@ -1,0 +1,26 @@
+.hero-about h1 {
+    font-family: 'Nunito', serif;
+    font-size: 48px;
+    text-align: center;
+    
+  }
+  
+  .hero-about p {
+    text-align: center;
+   
+  }
+
+.hero-about{
+    padding-top: 50px;
+    background-image: url('../../Assets/about.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    
+  }

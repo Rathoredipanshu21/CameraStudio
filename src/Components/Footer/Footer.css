@@ -1,0 +1,37 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+
+}
+
+.footer-section {
+  flex: 1;
+  padding: 10px;
+  min-width: 200px; /* Responsive min-width */
+}
+
+.footer-section h3 {
+  margin-top: 0;
+  color: #f8f8f8;
+  font-family: 'Nunito', serif;
+   
+}
+
+.footer-section p, .footer-section ul {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  padding: 2px 0;
+}

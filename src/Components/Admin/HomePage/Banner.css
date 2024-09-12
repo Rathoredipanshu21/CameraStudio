@@ -1,0 +1,45 @@
+.banner {
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .banner h2 {
+    margin-bottom: 20px;
+  }
+  
+  .banner form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .banner form div {
+    margin-bottom: 20px;
+  }
+  
+  .banner form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .banner form input[type="text"],
+  .banner form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  .banner form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .banner form button:hover {
+    background-color: #0056b3;
+  }
+  

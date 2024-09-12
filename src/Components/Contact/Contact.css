@@ -1,0 +1,75 @@
+.contact-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.contact-info, .contact-form {
+  flex-basis: 45%;
+}
+
+.contact-info h2, .contact-form h2 {
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 20px; /* Increased margin for better spacing */
+  padding: 10px; /* Added padding for better appearance */
+  border: 1px solid #ccc; /* Added border */
+  border-radius: 5px; /* Added border radius */
+  font-size: 16px; /* Increased font size */
+}
+
+.contact-form textarea {
+  height: 150px; /* Increased height for textarea */
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Increased font size */
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.contact-about h1 {
+  font-family: 'Nunito', serif;
+  font-size: 48px;
+  text-align: center;
+  
+}
+
+.contact-about p {
+  text-align: center;
+ 
+}
+
+.contact-about{
+  padding-top: 50px;
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; 
+  background-color: #ccc;
+  
+}

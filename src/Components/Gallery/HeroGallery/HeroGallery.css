@@ -1,0 +1,27 @@
+.gallery-about h1 {
+    font-family: 'Nunito', serif;
+    font-size: 48px;
+    text-align: center;
+    
+  }
+  
+  .gallery-about p {
+    text-align: center;
+   
+  }
+
+.gallery-about{
+    padding-top: 50px;
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    background-color: #ccc;
+    
+  }

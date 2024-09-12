@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+.hire-expert {
+    background-image: url('https://plus.unsplash.com/premium_photo-1682092632793-c7d75b23718e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2xvc2UlMjB1cCUyMHdlZGRpbmclMjBpbmRpYXxlbnwwfHwwfHx8MA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-expert {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.left-side {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-side h1 {
+    font-family: 'Poetsen One', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.left-side p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.right-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.right-side select,
+.right-side input {
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.right-side select option {
+    background: #333;
+    color: #fff;
+}
+
+.right-side input::placeholder {
+    color: #fff;
+}
+
+.right-side button {
+    background: #0073e6;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.right-side button:hover {
+    background: #005bb5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content-expert {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-side, .right-side {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-side h1 {
+        font-size: 1.5rem;
+    }
+
+    .left-side p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hire-expert {
+        height: auto;
+    }
+
+    .left-side h1 {
+        font-size: 1.2rem;
+    }
+
+    .left-side p {
+        font-size: 0.9rem;
+    }
+}

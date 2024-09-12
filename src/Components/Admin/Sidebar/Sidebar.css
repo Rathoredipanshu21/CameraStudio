@@ -1,0 +1,85 @@
+.sidebar {
+    width: 200px;
+    padding: 20px;
+    background-color: #426563;
+    position: fixed;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    top: 60px; /* Adjust this if you have a top navbar */
+    left: 0;
+}
+
+.sidebar-heading {
+    margin-bottom: 50px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.sidebar-list {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-list li {
+    margin: 20px 0;
+    cursor: pointer;
+    color: #007bff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-list li:hover {
+    text-decoration: underline;
+}
+
+.sidebar-list li svg {
+    margin-right: 10px;
+}
+
+.admin-control-dropdown {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 10px 20px;
+    background-color: grey; /* Add this line to change the background color to grey */
+    border-radius: 4px; /* Optional: to add some border radius to the dropdown */
+}
+
+.admin-control-dropdown li {
+    margin: 10px 0;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px; /* Add padding for better spacing */
+}
+
+.admin-control-dropdown li:hover {
+    text-decoration: underline;
+    background-color: #6c757d; /* Add this line to change the background color on hover */
+}
+
+.navbar-icons {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    background-color: #426563;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 100%;
+    gap: 10px;
+}
+
+.icon-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+}

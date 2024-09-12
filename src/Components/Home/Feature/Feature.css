@@ -1,0 +1,74 @@
+.Feature {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .Feature h1 {
+    font-family: 'Nunito', serif;
+    font-size: 48px;
+    text-align: center;
+  }
+  
+  .Feature p {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .feature-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch; /* Ensures all boxes have the same height */
+    gap: 20px; /* Adds space between the boxes */
+    padding: 30px;
+  }
+  
+  .feature-list > div {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1 1 30%; /* Ensures the boxes take up equal width */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .feature-list h1 {
+    font-family: 'Nunito', serif;
+    font-size: 20px;
+    color: #0073e6;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .feature-list p {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #icon {
+    font-size: 40px;
+    color: #0073e6;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .feature-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .feature-list > div {
+      flex: 1 1 100%;
+      max-width: 90%;
+    }
+  }
+  

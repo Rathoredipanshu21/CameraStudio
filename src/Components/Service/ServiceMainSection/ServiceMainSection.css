@@ -1,0 +1,26 @@
+.service-main-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .service-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .service-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .service-item h2 {
+    margin-top: 10px;
+  }
+  
+  .service-item p {
+    margin-top: 10px;
+  }
+  

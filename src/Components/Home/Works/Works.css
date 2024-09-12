@@ -1,0 +1,84 @@
+.works h1{
+    font-family: 'Nunito', serif;
+    font-size: 48px;
+    text-align: center;
+}
+.works p{
+    /* margin: 0px auto; */
+    text-align: center;
+    padding: 100px;
+}
+
+.works-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px; 
+    padding: 55px;
+  }
+  
+  .works-item {
+    width: calc(33.33% - 20px); /* 3 items per row with some margin */
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+   
+  }
+  
+  .works-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .works-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+  }
+  
+  .works-title {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+  }
+  
+  .works-details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5em 0;
+  }
+  
+  .works-couple,
+  .works-function,
+  .works-description {
+    margin: 0.25em 0;
+  }
+  
+  .works-button {
+    width: 10%;
+    margin: 0 auto; /* Centered the button horizontally */
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #000;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .works-button:hover {
+    background-color: #0056b3;
+  }
+  

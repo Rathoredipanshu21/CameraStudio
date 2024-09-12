@@ -1,0 +1,65 @@
+body, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.navbar.scrolled {
+  background-color: #fff; /* Change to any color you like */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #333; /* Change text color when scrolled */
+}
+
+.logo img {
+  width: 50px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-list li {
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+
+.nav-list a {
+  text-decoration: none; /* Removes underline from links */
+  color: inherit; /* Ensures links use the text color of their parent elements */
+}
+
+.nav-list li:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Light hover effect */
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons li {
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.social-icons li:hover {
+  color: #ccc; /* Change this to your desired hover color */
+}
